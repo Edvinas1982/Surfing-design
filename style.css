@@ -12,13 +12,22 @@ body {
     max-width: 1200px;
     padding-top: 45px;
     margin: 0 auto;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main_title {
-    background-image: url("img/Main_image.jpg");
-    min-height: 70vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 30px;
+    /* position: absolute;
+    left: 0;
+    top: 50%;
+    display: flex; */
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translate(0,-50%);
 }
 header {
     display: flex;
@@ -90,4 +99,66 @@ nav a {
     height: 20px;
     margin: 25px auto;
     clear: left;
+}
+.hero {
+    width: 100%;
+    position: relative;
+}
+.surfer {
+    width: 85%;
+    float: right;
+    box-shadow: 6px 6px 23px 0 rgb(26 45 63 / 37%);
+    filter: brightness(110%);
+    display: block;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.text_block {
+    margin-bottom: 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #5da8ef;
+    font-family: Lato,sans-serif;
+    text-transform: uppercase;
+}
+.heading {
+    margin-top: 0;
+    font-family: 'Playfair Display',sans-serif;
+    color: #072933;
+    font-size: 4.5em;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.main_paragraph {
+    width: 57%;
+    font-family: Lato,sans-serif;
+    color: #363535;
+    line-height: 2em;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.container.bottom_text {
+    text-align: center;
+}
+.container.bottom_text p {
+    display: block;
+    max-width: 610px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Playfair Display',sans-serif;
+    color: #333;
+    font-size: 23.5px;
+    line-height: 1.5em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.text_block_2 {
+    font-family: Lato,sans-serif;
+    color: #696969;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
