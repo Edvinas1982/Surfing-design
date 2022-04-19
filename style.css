@@ -163,6 +163,7 @@ nav a {
 .container.bottom_text {
     text-align: center;
     transform: translate(0,5%);
+    padding-bottom: 45px;
 }
 .container.bottom_text p {
     display: block;
@@ -191,4 +192,33 @@ nav a {
     height: 75px;
     margin: 45px auto 0;
     background-color: #5da8ef;
+}
+.column_right {
+    width: 50%;
+}
+.padded_text {
+    padding-top: 45px;
+    padding-right: 30%;
+    padding-left: 65px;
+    font-family: Lato,sans-serif;
+    color: #949494;
+    font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}
+.padded_link {
+    padding-bottom: 5px;
+    clear: left;
+    border-bottom: 2px solid #5da8ef;
+    color: #3f3f3f;
+    text-decoration: none;
+    font-family: Oswald,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.surfer_on_rocks {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
 }
