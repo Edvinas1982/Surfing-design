@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     min-height: 100%;
     background-color: #fff;
     font-family: Arial,sans-serif;
@@ -18,17 +17,19 @@ body {
     margin-right: auto;
 }
 .hold_slide_content {
-    /* position: absolute;
+   
     left: 0;
     top: 50%;
-    display: flex; */
+    display: flex;
     width: 50%;
     height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    transform: translate(0,-50%);
-}
+    box-sizing: border-box;
+    transform: translate(0,-460px);
+   
+} 
 header {
     display: flex;
     align-items: center;
@@ -52,11 +53,13 @@ nav a {
     font-weight: 700;
 }
 .section {
+    position: absolute;
     overflow: hidden;
     width: 100%;
     padding-right: 75px;
     padding-left: 75px;
     clear: left;
+
 }
 .sidebar {
     position: fixed;
@@ -82,6 +85,7 @@ nav a {
     line-height: 1.8em;
 }
 .main_container {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
@@ -90,6 +94,7 @@ nav a {
     background-position: 50% 0;
     background-size: 100%;
     background-repeat: repeat-y;
+    
 }
 .social_block {
     position: absolute;
@@ -110,11 +115,15 @@ nav a {
     margin: 25px auto;
     clear: left;
 }
-.hero {
+.hero{
+ 
+    height: 100%;
     width: 100%;
-    position: relative;
+
 }
+
 .surfer {
+
     width: 85%;
     float: right;
     box-shadow: 6px 6px 23px 0 rgb(26 45 63 / 37%);
@@ -124,6 +133,8 @@ nav a {
     /* max-width: 100%; */
     /* vertical-align: middle; */
 }
+
+
 .text_block {
     margin-bottom: 25px;
     font-size: 12px;
@@ -133,7 +144,7 @@ nav a {
     text-transform: uppercase;
 }
 .heading {
-    margin-top: 0;
+    margin: 0;
     font-family: 'Playfair Display',sans-serif;
     color: #072933;
     font-size: 4.5em;
@@ -151,8 +162,11 @@ nav a {
 }
 .container.bottom_text {
     text-align: center;
+  
+
 }
 .container.bottom_text p {
+    
     display: block;
     max-width: 610px;
     margin-right: auto;
@@ -164,6 +178,7 @@ nav a {
     font-weight: 400;
     letter-spacing: 1px;
     opacity: 0.9;
+    
 }
 .text_block_2 {
     font-family: Lato,sans-serif;
@@ -171,4 +186,11 @@ nav a {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+.middle_line {
+    display: block;
+    width: 2px;
+    height: 75px;
+    margin: 45px auto 0;
+    background-color: #5da8ef;
 }
