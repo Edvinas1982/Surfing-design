@@ -17,9 +17,9 @@ body {
     margin-right: auto;
 }
 .hold_slide_content {
-   
+    position: absolute;
     left: 0;
-    top: 50%;
+    top: 800%;
     display: flex;
     width: 50%;
     height: 100%;
@@ -27,7 +27,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
-    transform: translate(0,-460px);
+    transform: translate(1,-460px);
    
 } 
 header {
@@ -162,11 +162,9 @@ nav a {
 }
 .container.bottom_text {
     text-align: center;
-  
-
+    transform: translate(0,5%);
 }
 .container.bottom_text p {
-    
     display: block;
     max-width: 610px;
     margin-right: auto;
