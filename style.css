@@ -268,3 +268,15 @@ nav a {
     line-height: 36px;
     font-weight: 700;
 }
+.surfboard_menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.left_surfboard, 
+.middle_surfboard,
+.right_surfboard {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+}
