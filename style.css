@@ -280,3 +280,62 @@ nav a {
     display: flex;
     align-items: center;
 }
+.board_type_left,
+.board_name_left,
+.board_price_left,
+.board_buy_button_left  {
+    position: absolute;
+    top: 57%;
+    right: 53px;
+    width: 128%;
+}
+.board_name_left {
+    right: 40px;
+}
+.board_price_left,
+.board_buy_button_left {
+    top: 66%;
+    right: 10px;
+}
+.board_buy_button_left {
+    top: 68%;
+}
+.board_type_middle,
+.board_name_middle,
+.board_price_middle,
+.board_buy_button_middle {
+    position: absolute;
+    top: 57%;
+    right: -282px;
+    width: 128%;
+}
+.board_name_middle {
+    right: -295px;
+}
+.board_price_middle,
+.board_buy_button_middle {
+    top: 66%;
+    right: -321px;
+}
+.board_buy_button_middle {
+    top: 68%;
+}
+.board_type_right,
+.board_name_right,
+.board_price_right,
+.board_buy_button_right {
+    position: absolute;
+    top: 57%;
+    left: 84%;
+}
+.board_name_right {
+    left: 84%;
+}
+.board_price_right,
+.board_buy_button_right {
+    top: 66%;
+    left: 91%;
+}
+.board_buy_button_right {
+    top: 68%;
+}
