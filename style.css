@@ -286,7 +286,7 @@ nav a {
 .board_buy_button_left  {
     position: absolute;
     top: 57%;
-    right: 53px;
+    right: 67px;
     width: 128%;
 }
 .board_name_left {
@@ -298,7 +298,8 @@ nav a {
     right: 10px;
 }
 .board_buy_button_left {
-    top: 68%;
+    top: 70%;
+    right: 18px;
 }
 .board_type_middle,
 .board_name_middle,
@@ -306,7 +307,7 @@ nav a {
 .board_buy_button_middle {
     position: absolute;
     top: 57%;
-    right: -282px;
+    right: -269px;
     width: 128%;
 }
 .board_name_middle {
@@ -318,7 +319,8 @@ nav a {
     right: -321px;
 }
 .board_buy_button_middle {
-    top: 68%;
+    top: 70%;
+    right: -314px;
 }
 .board_type_right,
 .board_name_right,
@@ -337,5 +339,42 @@ nav a {
     left: 91%;
 }
 .board_buy_button_right {
-    top: 68%;
+    top: 70%;
+    left: 91%;
+}
+.board_type_left,
+.board_type_middle, 
+.board_type_right {
+    font-family: Oswald,sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.board_name_left,
+.board_name_middle,
+.board_name_right {
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+.board_price_left,
+.board_price_middle,
+.board_price_right {
+    font-family: Oswald,sans-serif;
+    color: #ce60a8;
+    font-size: 18px;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+.board_buy_button_left,
+.board_buy_button_middle,
+.board_buy_button_right {
+    font-family: Oswald,sans-serif;
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 1.3em;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
