@@ -290,16 +290,16 @@ nav a {
     width: 128%;
 }
 .board_name_left {
-    right: 40px;
+    right: 46px;
 }
 .board_price_left,
 .board_buy_button_left {
     top: 66%;
-    right: 10px;
+    right: 17px;
 }
 .board_buy_button_left {
     top: 70%;
-    right: 18px;
+    right: 24px;
 }
 .board_type_middle,
 .board_name_middle,
@@ -311,7 +311,7 @@ nav a {
     width: 128%;
 }
 .board_name_middle {
-    right: -295px;
+    right: -289px;
 }
 .board_price_middle,
 .board_buy_button_middle {
@@ -336,11 +336,11 @@ nav a {
 .board_price_right,
 .board_buy_button_right {
     top: 66%;
-    left: 91%;
+    left: 90%;
 }
 .board_buy_button_right {
     top: 70%;
-    left: 91%;
+    left: 90%;
 }
 .board_type_left,
 .board_type_middle, 
@@ -354,8 +354,8 @@ nav a {
 .board_name_middle,
 .board_name_right {
     font-family: 'Playfair Display',sans-serif;
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 1.1em;
+    line-height: 2.0em;
     font-weight: 400;
 }
 .board_price_left,
