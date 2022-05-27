@@ -429,4 +429,21 @@ nav a {
 }
 .point_break_information_box {
     display: flex;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+.point_break_information_picture {
+    margin-left: 160px;
+}
+.point_break_information_text {
+    margin-left: 131px;
+    margin-top: 100px;
+}
+.paragraph_after_point_break {
+    font-family: Lato,sans-serif;
+    color: #949494;
+    font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
 }
