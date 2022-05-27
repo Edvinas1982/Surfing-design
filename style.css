@@ -427,3 +427,6 @@ nav a {
     background-color: #5da8ef;
     margin-bottom: 40px;
 }
+.point_break_information_box {
+    display: flex;
+}
