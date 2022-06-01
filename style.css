@@ -447,3 +447,33 @@ nav a {
     letter-spacing: 1px;
     margin-bottom: 40px;
 }
+.join_the_club {
+    margin-top: 50px;
+}
+.join_the_club_information {
+    text-align: center;
+}
+.paragraph_after_join_the_club {
+    font-family: Lato,sans-serif;
+    color: #949494;
+    font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    width: 42%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.input {
+    margin-top: 20px;
+}
+.form-label {
+    font-family: Oswald,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 37px;
+}
