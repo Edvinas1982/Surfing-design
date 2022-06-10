@@ -2,12 +2,19 @@
     .main {
         margin-left: 50px;
     }
+    .point_break_information_text {
+        margin-right: 20px;
+    }
+    .camp_location_information {
+        margin-left: 0px;
+        font-size: 28px;
+    }
+    .camp_location_picture {
+        width: 90%;
+    }
 
 }
 @media (max-width: 1350px) and (min-width: 1244px){
-    .surfer_on_board {
-        width: 91%;
-    }
     .point_break {
         width: 92%;
     }
@@ -29,35 +36,33 @@
     .section.surfboard {
         padding-right: 120px;
     }
-    .surfer_on_board {
-        width: 88%;
-    }
     .point_break {
         width: 90%;
     }
     .point_break_information_picture {
-        margin-left: 60px;
+        margin-left: 40px;
     }
     .point_break_information_text {
-        margin-left: 90px;
+        margin-left: 60px;
     }
 }
 
 @media (max-width: 1136px) {
     .heading {
         font-size: 48px;
-}
-.surfer_on_board {
-    width: 88%;
-}
+    }
+    .point_break {
+        width: 90%;
+    }
 }
 @media (max-width: 1024px) {
     .main {
         padding-left: 30px;
+        padding-right: 30px;
         padding-top: 0px;
     }
     .section {
-        padding-right: 30px;
+        padding-right: 0px;
         padding-left: 0px;
     }
     .container {
@@ -89,7 +94,36 @@
     .surfboard_information_box {
         margin-top: 20px;
     }
-    .surfer_on_board {
-        width: 94%;
+    .point_break_information_picture {
+        margin-left: 40px;
+    }
+    .point_break_information_text {
+        margin-left: 60px;
+    }
+    .point_break.container {
+        margin-left: 0;
+    }
+    .camp_location_information {
+        margin-left: 0px;
+        font-size: 28px;
+    }
+    .camp_location_picture {
+        width: 90%;
+    }
+}
+@media (max-width: 910px) {
+    header {
+        justify-content: space-between;
+    }
+    header nav {
+        display: none;
+    }
+    .hamburger {
+     padding-left: 30px;
+    }
+}
+@media (min-width: 911px) {
+    .hamburger {
+        display: none;
     }
 }

@@ -407,9 +407,6 @@ nav a {
 .surfboard_information_box {
     display: flex;
 }
-.surfboard_information_text {
-    width: 42%;
-}
 .paragraph_after_surfboard {
     font-family: Lato,sans-serif;
     color: #949494;
@@ -417,9 +414,6 @@ nav a {
     line-height: 1.8em;
     letter-spacing: 1px;
     margin-bottom: 40px;
-}
-.surfer_on_board {
-    width: 99%;
 }
 .small_line {
     width: 10%;
