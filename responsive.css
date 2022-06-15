@@ -180,6 +180,18 @@
     .surfboard_information_text {
         width: 80%
     }
+    .sub_heading {
+        font-size: 28px;
+    }
+    .point_break_information_text {
+        margin-top: 0;
+    }
+    .point_break_information_box {
+        padding-bottom: 0;
+    }
+    .small_heading {
+        margin-top: 5px;
+    }
 }
 @media (max-width: 800px) {
     .hold_slide_content {
@@ -203,6 +215,42 @@
     }
     .heading_box {
         margin-top: 40px;
+    }
+    .middle_surfboard {
+        display: none;
+    }
+    .surfboard_menu {
+        justify-content: space-around;
+    }
+    .board_type_left {
+        right: 120px;
+    }
+    .board_name_left {
+        right: 100px;;
+    }
+    .board_price_left {
+        right: 72px;
+    }
+    .board_buy_button_left {
+        right: 78px;
+    }
+    .camp-location_information_box {
+        display: block;
+        text-align: center;
+    }
+    .camp_location_picture {
+        width: 100%;
+    }
+    .small_heading {
+        margin-top: 30px;
+    }
+    .camp_location_information {
+        width: 100%;
+    }
+    .footer_nav {
+        display: flex;
+        justify-content: center;
+        margin: auto;
     }
 }
 @media (min-width: 911px) {
