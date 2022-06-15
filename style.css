@@ -407,6 +407,12 @@ nav a {
 .surfboard_information_box {
     display: flex;
 }
+.surfboard_information_text {
+    width: 42%;
+}
+.surfer_on_board {
+    width: 100%;
+}
 .paragraph_after_surfboard {
     font-family: Lato,sans-serif;
     color: #949494;
@@ -421,6 +427,9 @@ nav a {
     background-color: #5da8ef;
     margin-bottom: 40px;
 }
+.point_break_picture {
+    width: 100%;
+}
 .point_break_information_box {
     display: flex;
     margin-top: 30px;
@@ -431,7 +440,8 @@ nav a {
 }
 .point_break_information_text {
     margin-left: 131px;
-    margin-top: 100px;
+    margin-top: 30px;
+    width: 50%;
 }
 .paragraph_after_point_break {
     font-family: Lato,sans-serif;
