@@ -96,11 +96,14 @@
         padding-right: 0px;
         padding-left: 0px;
     }
+    .section.surfboard {
+        padding-right: 0px;
+    }
     .container {
         padding-top: 0px;
     }
     .hold_slide_content {
-        top: 645%;
+        top: 530%;
         width: 100%;
     }
     .right_surfboard {
@@ -111,16 +114,16 @@
         width: 50%;
     }
     .board_type_middle {
-        right: -385px;
+        right: -420px;
     }
     .board_name_middle {
-        right: -405px;
+        right: -440px;
     }
     .board_price_middle {
-        right: -435px;
+        right: -475px;
     }
     .board_buy_button_middle {
-        right: -428px;
+        right: -470px;
     }
     .surfboard_information_box {
         margin-top: 20px;
@@ -192,6 +195,26 @@
     .small_heading {
         margin-top: 5px;
     }
+    .surfboard_menu {
+        margin-top: -100px;
+    }
+    .middle_line {
+        margin: 10px auto 0;
+    }
+}
+@media (max-width: 845px) {
+    .board_type_middle {
+        right: -385px;
+    }
+    .board_name_middle {
+        right: -405px;
+    }
+    .board_price_middle {
+        right: -435px;
+    }
+    .board_buy_button_middle {
+        right: -430px;
+    }
 }
 @media (max-width: 800px) {
     .hold_slide_content {
@@ -251,6 +274,54 @@
         display: flex;
         justify-content: center;
         margin: auto;
+    }
+}
+@media (max-width: 360px) {
+    .point_break.container {
+        text-align: center;
+    }
+    .point_break_information_box {
+        display: inline;
+    }
+    .point_break_information_text {
+        width: 100%;
+        margin: 0;
+    }
+    .padded_link {
+        font-size: 12px;
+    }
+    .middle_line {
+        display: none;
+    }
+    .join_the_club {
+        margin-top: 20px;
+    }
+    .join_the_club_information {
+        font-size: 18px;
+    }
+    .paragraph_after_join_the_club {
+        width: 100%;
+    }
+    .camp_location_information {
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .get_in_touch,
+    .small_heading {
+        margin-left: 0;
+    }
+    .camp-location_information_box {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .footer_nav a {
+        padding-right: 8px;
+        padding-left: 8px;
+        font-size: 12px;
+    }
+    .footer_social_block {
+        width: 30%;
     }
 }
 @media (min-width: 911px) {
