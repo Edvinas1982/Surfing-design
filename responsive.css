@@ -277,6 +277,20 @@
     }
 }
 @media (max-width: 360px) {
+    .bottom.surfboard.container {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .point_break_information_picture {
+        width: 100%;
+        margin: auto;
+    }
+    .sub_heading {
+        font-size: 18px;
+    }
+    .small_line {
+        display: none;
+    }
     .point_break.container {
         text-align: center;
     }
@@ -286,6 +300,9 @@
     .point_break_information_text {
         width: 100%;
         margin: 0;
+    }
+    .paragraph_after_point_break {
+        margin-bottom: 20px;
     }
     .padded_link {
         font-size: 12px;
@@ -314,6 +331,9 @@
     .camp-location_information_box {
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+    .get_in_touch {
+        font-size: 10px;
     }
     .footer_nav a {
         padding-right: 8px;
