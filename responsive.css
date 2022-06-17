@@ -277,6 +277,102 @@
     }
 }
 @media (max-width: 360px) {
+    header {
+        padding-top: 10px;
+    }
+    .hamburger img {
+        height: 50px;
+    }
+    .main_container {
+        padding-top: 15px;
+    }
+    .container.bottom_text {
+        margin-top: 20px;
+    }
+    .hold_slide_content {
+        top: 1160%;
+    }
+    .text_block {
+        font-size: 10px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .paragraph {
+        margin-top: 100px;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        font-family: 'Playfair Display',sans-serif;
+        color: #333;
+        font-size: 16.5px;
+        line-height: 1.5em;
+        font-weight: 400;
+        letter-spacing: 1px;
+        opacity: 0.9;
+    }
+    .blue_line {
+        width: 35%;
+        height: 2px;
+        background: #5da8ef;
+        margin-top: 320px;
+        margin-left: 100px;
+    }
+    .text_block_2 {
+        width: 40%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-bottom: 2px solid #5da8ef;
+    }
+    .container.middle_information {
+        text-align: center;
+    }
+    .column_right {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    .column_left {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .video_image {
+        right: 0;
+        box-shadow: none;
+    }
+    .padded_text {
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+    .board_type_left {
+        right: 66px;
+    }
+    .board_name_left {
+        right: 44px;
+    }
+    .board_price_left {
+        right: 14px;
+    }
+    .board_buy_button_left {
+        right: 20px;
+    }
+    .left_surfboard{
+        width: 85%;
+    }
+    .bottom.surfboard.container {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .surfboard_information_text{
+        width: 100%;
+    }
+    .surfboard_information_text a {
+        display: none;
+    }
+    .surfboard_information_box {
+        display: inline;
+    }
     .bottom.surfboard.container {
         margin-bottom: 30px;
         text-align: center;
@@ -346,6 +442,12 @@
 }
 @media (min-width: 911px) {
     .hamburger {
+        display: none;
+    }
+}
+@media (min-width: 361px) {
+    .padded_link.hide,
+    .blue_line {
         display: none;
     }
 }
