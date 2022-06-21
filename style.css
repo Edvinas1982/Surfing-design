@@ -153,8 +153,7 @@ nav a {
     filter: brightness(110%);
     display: block;
     border: 0;
-    /* max-width: 100%; */
-    /* vertical-align: middle; */
+    animation: fadeIn 5s ease 0s 1 normal forwards;
 }
 .text_block {
     margin-bottom: 25px;
@@ -163,6 +162,7 @@ nav a {
     color: #5da8ef;
     font-family: Lato,sans-serif;
     text-transform: uppercase;
+    animation: slideIn 1.0s ease 0s 1 normal forwards;
 }
 .heading {
     margin: 0;
@@ -171,6 +171,7 @@ nav a {
     font-size: 4.5em;
     line-height: 1.2em;
     font-weight: 700;
+    animation: slideIn 2.0s ease 0s 1 normal forwards;
 }
 .paragraph {
     width: 57%;
@@ -180,11 +181,13 @@ nav a {
     position: relative;
     font-size: 14px;
     letter-spacing: 1px;
+    animation: slideIn 3.0s ease 0s 1 normal forwards;
 }
 .container.bottom_text {
     text-align: center;
     transform: translate(0,5%);
     padding-bottom: 45px;
+    animation: slideIn 4.0s ease 0s 1 normal forwards;
 }
 .container.bottom_text p {
     display: block;
